@@ -1,0 +1,74 @@
+@import "../crud/partials/variables.scss";
+
+
+body{
+    background-image: url("books.jpg");
+}
+
+.success{
+    background-color: $success-color;
+    padding: 1em;
+}
+.error{
+    background-color: $error-color;
+    padding: 1em;
+}
+table .btnedit{
+    color: lightsalmon;
+    cursor: pointer;
+}
+
+table{
+    margin-top: 50px;
+    
+}
+
+th{
+    font-family: $font1;
+}
+.d-flex button{
+    margin: 1.5em 0.5em;
+    padding: 0.3em 1.4em;
+    
+}
+h1{
+    color: $base-color;
+}
+
+.py-4{
+  width: 800px;
+  height: 90px;
+  min-height: 10px;
+  margin: 0;
+  position: relative;
+  top: 10px;
+  right: -150px;
+  background-color:black;
+  background-size: 300px 150px;
+  background-position: left;
+
+}
+
+.form-div{
+    margin: 50px auto 50px;
+    padding: 25px 15px 10px 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-family: $font3;
+}
+
+form p{
+    font-size: .89em;
+}
+
+.form-div.login{
+    margin-top: 100px;
+}
+
+.logout{
+    color: red;
+    color: $base-color;
+    font-size: 1.1em;
+    font-family: $font3;
+}
