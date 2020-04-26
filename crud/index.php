@@ -22,7 +22,7 @@ require_once("../crud/php/operation.php");
 <body>
 <main>
     <div class="container text-center">
-     <h1 class="py"><i class="fas fa-book-reader"></i> Book Store</h1>
+     <h1 class="py"><i class="fas fa-book-reader"></i> Book</h1>
     
     
 
